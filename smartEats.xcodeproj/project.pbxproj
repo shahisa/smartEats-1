@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EC86861E74CC6F00B61466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC86851E74CC6F00B61466 /* AppDelegate.swift */; };
+		21EC86881E74CC6F00B61466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC86871E74CC6F00B61466 /* ViewController.swift */; };
+		21EC868B1E74CC6F00B61466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC86891E74CC6F00B61466 /* Main.storyboard */; };
+		21EC868E1E74CC6F00B61466 /* smartEats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21EC868C1E74CC6F00B61466 /* smartEats.xcdatamodeld */; };
+		21EC86901E74CC6F00B61466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC868F1E74CC6F00B61466 /* Assets.xcassets */; };
+		21EC86931E74CC6F00B61466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC86911E74CC6F00B61466 /* LaunchScreen.storyboard */; };
+		21EC869E1E74CC6F00B61466 /* smartEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC869D1E74CC6F00B61466 /* smartEatsTests.swift */; };
+		21EC86A91E74CC7000B61466 /* smartEatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC86A81E74CC7000B61466 /* smartEatsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21EC869A1E74CC6F00B61466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EC867A1E74CC6F00B61466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EC86811E74CC6F00B61466;
+			remoteInfo = smartEats;
+		};
+		21EC86A51E74CC7000B61466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EC867A1E74CC6F00B61466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EC86811E74CC6F00B61466;
+			remoteInfo = smartEats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21EC86821E74CC6F00B61466 /* smartEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC86851E74CC6F00B61466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21EC86871E74CC6F00B61466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21EC868A1E74CC6F00B61466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21EC868D1E74CC6F00B61466 /* smartEats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartEats.xcdatamodel; sourceTree = "<group>"; };
+		21EC868F1E74CC6F00B61466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21EC86921E74CC6F00B61466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21EC86941E74CC6F00B61466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EC86991E74CC6F00B61466 /* smartEatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartEatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC869D1E74CC6F00B61466 /* smartEatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartEatsTests.swift; sourceTree = "<group>"; };
+		21EC869F1E74CC6F00B61466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EC86A41E74CC7000B61466 /* smartEatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartEatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC86A81E74CC7000B61466 /* smartEatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartEatsUITests.swift; sourceTree = "<group>"; };
+		21EC86AA1E74CC7000B61466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EC867F1E74CC6F00B61466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86961E74CC6F00B61466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86A11E74CC7000B61466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EC86791E74CC6F00B61466 = {
+			isa = PBXGroup;
+			children = (
+				21EC86841E74CC6F00B61466 /* smartEats */,
+				21EC869C1E74CC6F00B61466 /* smartEatsTests */,
+				21EC86A71E74CC7000B61466 /* smartEatsUITests */,
+				21EC86831E74CC6F00B61466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21EC86831E74CC6F00B61466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EC86821E74CC6F00B61466 /* smartEats.app */,
+				21EC86991E74CC6F00B61466 /* smartEatsTests.xctest */,
+				21EC86A41E74CC7000B61466 /* smartEatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EC86841E74CC6F00B61466 /* smartEats */ = {
+			isa = PBXGroup;
+			children = (
+				21EC86851E74CC6F00B61466 /* AppDelegate.swift */,
+				21EC86871E74CC6F00B61466 /* ViewController.swift */,
+				21EC86891E74CC6F00B61466 /* Main.storyboard */,
+				21EC868F1E74CC6F00B61466 /* Assets.xcassets */,
+				21EC86911E74CC6F00B61466 /* LaunchScreen.storyboard */,
+				21EC86941E74CC6F00B61466 /* Info.plist */,
+				21EC868C1E74CC6F00B61466 /* smartEats.xcdatamodeld */,
+			);
+			path = smartEats;
+			sourceTree = "<group>";
+		};
+		21EC869C1E74CC6F00B61466 /* smartEatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				21EC869D1E74CC6F00B61466 /* smartEatsTests.swift */,
+				21EC869F1E74CC6F00B61466 /* Info.plist */,
+			);
+			path = smartEatsTests;
+			sourceTree = "<group>";
+		};
+		21EC86A71E74CC7000B61466 /* smartEatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21EC86A81E74CC7000B61466 /* smartEatsUITests.swift */,
+				21EC86AA1E74CC7000B61466 /* Info.plist */,
+			);
+			path = smartEatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EC86811E74CC6F00B61466 /* smartEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC86AD1E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEats" */;
+			buildPhases = (
+				21EC867E1E74CC6F00B61466 /* Sources */,
+				21EC867F1E74CC6F00B61466 /* Frameworks */,
+				21EC86801E74CC6F00B61466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartEats;
+			productName = smartEats;
+			productReference = 21EC86821E74CC6F00B61466 /* smartEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21EC86981E74CC6F00B61466 /* smartEatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC86B01E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEatsTests" */;
+			buildPhases = (
+				21EC86951E74CC6F00B61466 /* Sources */,
+				21EC86961E74CC6F00B61466 /* Frameworks */,
+				21EC86971E74CC6F00B61466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EC869B1E74CC6F00B61466 /* PBXTargetDependency */,
+			);
+			name = smartEatsTests;
+			productName = smartEatsTests;
+			productReference = 21EC86991E74CC6F00B61466 /* smartEatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21EC86A31E74CC7000B61466 /* smartEatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC86B31E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEatsUITests" */;
+			buildPhases = (
+				21EC86A01E74CC7000B61466 /* Sources */,
+				21EC86A11E74CC7000B61466 /* Frameworks */,
+				21EC86A21E74CC7000B61466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EC86A61E74CC7000B61466 /* PBXTargetDependency */,
+			);
+			name = smartEatsUITests;
+			productName = smartEatsUITests;
+			productReference = 21EC86A41E74CC7000B61466 /* smartEatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EC867A1E74CC6F00B61466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Trevon Wiggs";
+				TargetAttributes = {
+					21EC86811E74CC6F00B61466 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HFP6ZS98Z5;
+						ProvisioningStyle = Automatic;
+					};
+					21EC86981E74CC6F00B61466 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HFP6ZS98Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21EC86811E74CC6F00B61466;
+					};
+					21EC86A31E74CC7000B61466 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HFP6ZS98Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21EC86811E74CC6F00B61466;
+					};
+				};
+			};
+			buildConfigurationList = 21EC867D1E74CC6F00B61466 /* Build configuration list for PBXProject "smartEats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21EC86791E74CC6F00B61466;
+			productRefGroup = 21EC86831E74CC6F00B61466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EC86811E74CC6F00B61466 /* smartEats */,
+				21EC86981E74CC6F00B61466 /* smartEatsTests */,
+				21EC86A31E74CC7000B61466 /* smartEatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21EC86801E74CC6F00B61466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC86931E74CC6F00B61466 /* LaunchScreen.storyboard in Resources */,
+				21EC86901E74CC6F00B61466 /* Assets.xcassets in Resources */,
+				21EC868B1E74CC6F00B61466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86971E74CC6F00B61466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86A21E74CC7000B61466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EC867E1E74CC6F00B61466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC86881E74CC6F00B61466 /* ViewController.swift in Sources */,
+				21EC86861E74CC6F00B61466 /* AppDelegate.swift in Sources */,
+				21EC868E1E74CC6F00B61466 /* smartEats.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86951E74CC6F00B61466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC869E1E74CC6F00B61466 /* smartEatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC86A01E74CC7000B61466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC86A91E74CC7000B61466 /* smartEatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21EC869B1E74CC6F00B61466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EC86811E74CC6F00B61466 /* smartEats */;
+			targetProxy = 21EC869A1E74CC6F00B61466 /* PBXContainerItemProxy */;
+		};
+		21EC86A61E74CC7000B61466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EC86811E74CC6F00B61466 /* smartEats */;
+			targetProxy = 21EC86A51E74CC7000B61466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21EC86891E74CC6F00B61466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EC868A1E74CC6F00B61466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21EC86911E74CC6F00B61466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EC86921E74CC6F00B61466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21EC86AB1E74CC7000B61466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21EC86AC1E74CC7000B61466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21EC86AE1E74CC7000B61466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21EC86AF1E74CC7000B61466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21EC86B11E74CC7000B61466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartEats.app/smartEats";
+			};
+			name = Debug;
+		};
+		21EC86B21E74CC7000B61466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartEats.app/smartEats";
+			};
+			name = Release;
+		};
+		21EC86B41E74CC7000B61466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = smartEats;
+			};
+			name = Debug;
+		};
+		21EC86B51E74CC7000B61466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HFP6ZS98Z5;
+				INFOPLIST_FILE = smartEatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiggs.smartEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = smartEats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EC867D1E74CC6F00B61466 /* Build configuration list for PBXProject "smartEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC86AB1E74CC7000B61466 /* Debug */,
+				21EC86AC1E74CC7000B61466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EC86AD1E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC86AE1E74CC7000B61466 /* Debug */,
+				21EC86AF1E74CC7000B61466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21EC86B01E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC86B11E74CC7000B61466 /* Debug */,
+				21EC86B21E74CC7000B61466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21EC86B31E74CC7000B61466 /* Build configuration list for PBXNativeTarget "smartEatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC86B41E74CC7000B61466 /* Debug */,
+				21EC86B51E74CC7000B61466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21EC868C1E74CC6F00B61466 /* smartEats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21EC868D1E74CC6F00B61466 /* smartEats.xcdatamodel */,
+			);
+			currentVersion = 21EC868D1E74CC6F00B61466 /* smartEats.xcdatamodel */;
+			path = smartEats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21EC867A1E74CC6F00B61466 /* Project object */;
+}
